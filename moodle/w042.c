@@ -5,9 +5,9 @@
 
 int main() {
     int a,b;
-    int min,max; //最小公倍数和最大公约数
+    int min, max = 0; //最小公倍数和最大公约数
     scanf("%d %d",&a,&b);
-    for (int i = 0; i < 10000; ++i) {
+    for (int i = 0; i < a*b; ++i) {
         if (a % (i+1) == 0 && b % (i+1) == 0) {
             min = i + 1;
         }
