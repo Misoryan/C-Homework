@@ -22,6 +22,7 @@ int main() {
             }
         }
     }
+
     char search[4];
     scanf("%s",&search);
     for (int i = 0; i < n; ++i) {
